@@ -5,7 +5,7 @@ import (
 
 	"github.com/evilsocket/islazy/tui"
 
-	"github.com/muraenateam/muraena/log"
+	"github.com/qingniusoft/muraena/log"
 )
 
 type Module interface {
