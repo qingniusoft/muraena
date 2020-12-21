@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: circleci/golang:1.12
-    working_directory: /go/src/github.com/muraenateam/muraena
+    working_directory: /go/src/github.com/qingniusoft/muraena
     steps:
       - checkout
       - run:
