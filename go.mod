@@ -1,4 +1,4 @@
-module github.com/muraenateam/muraena
+module github.com/qingniusoft/muraena
 
 go 1.14
 
