@@ -4,7 +4,7 @@ import (
 	//"encoding/json"
 	"encoding/json"
 	"fmt"
-	"github.com/muraenateam/muraena/core/db"
+	"github.com/qingniusoft/muraena/core/db"
 	"net/http"
 	"net/url"
 	"path"
@@ -16,8 +16,8 @@ import (
 	"github.com/evilsocket/islazy/tui"
 	"github.com/lucasjones/reggen"
 
-	"github.com/muraenateam/muraena/module/necrobrowser"
-	"github.com/muraenateam/muraena/session"
+	"github.com/qingniusoft/muraena/module/necrobrowser"
+	"github.com/qingniusoft/muraena/session"
 )
 
 const (
