@@ -1,11 +1,11 @@
 package module
 
 import (
-	"github.com/muraenateam/muraena/module/crawler"
-	"github.com/muraenateam/muraena/module/necrobrowser"
-	"github.com/muraenateam/muraena/module/statichttp"
-	"github.com/muraenateam/muraena/module/tracking"
-	"github.com/muraenateam/muraena/session"
+	"github.com/qingniusoft/muraena/module/crawler"
+	"github.com/qingniusoft/muraena/module/necrobrowser"
+	"github.com/qingniusoft/muraena/module/statichttp"
+	"github.com/qingniusoft/muraena/module/tracking"
+	"github.com/qingniusoft/muraena/session"
 )
 
 // LoadModules load modules
