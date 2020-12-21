@@ -2,14 +2,14 @@ package session
 
 import (
 	"fmt"
-	"github.com/qingniusoft/muraena/core/db"
+	"github.com/muraenateam/muraena/core/db"
 	"os"
 	"runtime"
 
 	"github.com/evilsocket/islazy/log"
 	"github.com/evilsocket/islazy/tui"
 
-	"github.com/qingniusoft/muraena/core"
+	"github.com/muraenateam/muraena/core"
 )
 
 type moduleList []Module
