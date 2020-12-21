@@ -12,8 +12,8 @@ import (
 	"github.com/gocolly/colly"
 	"gopkg.in/resty.v1"
 
-	"github.com/muraenateam/muraena/proxy"
-	"github.com/muraenateam/muraena/session"
+	"github.com/qingniusoft/muraena/proxy"
+	"github.com/qingniusoft/muraena/session"
 )
 
 const (
