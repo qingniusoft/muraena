@@ -3,8 +3,8 @@ package tracking
 import (
 	"fmt"
 	"github.com/evilsocket/islazy/tui"
-	"github.com/muraenateam/muraena/core/db"
-	"github.com/muraenateam/muraena/log"
+	"github.com/qingniusoft/muraena/core/db"
+	"github.com/qingniusoft/muraena/log"
 	"os"
 )
 
