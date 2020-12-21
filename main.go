@@ -8,10 +8,10 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/muraenateam/muraena/log"
-	"github.com/muraenateam/muraena/module"
-	"github.com/muraenateam/muraena/proxy"
-	"github.com/muraenateam/muraena/session"
+	"github.com/qingniusoft/muraena/log"
+	"github.com/qingniusoft/muraena/module"
+	"github.com/qingniusoft/muraena/proxy"
+	"github.com/qingniusoft/muraena/session"
 
 	"github.com/evilsocket/islazy/tui"
 )
