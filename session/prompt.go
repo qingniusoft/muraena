@@ -9,8 +9,8 @@ import (
 	"github.com/evilsocket/islazy/tui"
 	"github.com/manifoldco/promptui"
 
-	"github.com/muraenateam/muraena/core"
-	"github.com/muraenateam/muraena/log"
+	"github.com/qingniusoft/muraena/core"
+	"github.com/qingniusoft/muraena/log"
 )
 
 const (
@@ -69,7 +69,7 @@ func validate(input string) error {
 func help() {
 	log.Raw("**************************************************************************")
 	log.Raw("* NOTE: This feature is not fully implemented yet. ")
-	log.Raw("*       Follow evolutions on https://github.com/muraenateam/muraena/issues/5")
+	log.Raw("*       Follow evolutions on https://github.com/qingniusoft/muraena/issues/5")
 	log.Raw("* Options")
 	log.Raw("* - help: %s", tui.Bold("Prints this help"))
 	log.Raw("* - exit: %s", tui.Bold("Exit from "+core.Name))
