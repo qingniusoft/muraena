@@ -11,6 +11,7 @@ import (
 	"github.com/evilsocket/islazy/tui"
 	"github.com/gocolly/colly"
 	"gopkg.in/resty.v1"
+	"mvdan.cc/xurls"
 
 	"github.com/qingniusoft/muraena/proxy"
 	"github.com/qingniusoft/muraena/session"
@@ -195,6 +196,13 @@ func (module *Crawler) fetchJS(waitGroup *sync.WaitGroup, res string, dest strin
 			module.Error("Error beautifying JS at %s", res)
 		}
 
+		jsUrls := xurls.Strict().FindAllString(beautyBody, -1)
+		if len(jsUrls) > 0 && len(jsUrls) < 100 { // prevent cases where we have a lots of domains
+			for _, jsURL := range jsUrls {
+				module.appendExternalDomain(jsURL, crawledDomains)
+			}
+			module.Info("Domains found in JS at %s: %d", res, len(jsUrls))
+		}
 	}
 }
 
