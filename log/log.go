@@ -12,7 +12,7 @@ import (
 	ll "github.com/evilsocket/islazy/log"
 	"github.com/evilsocket/islazy/tui"
 
-	"github.com/muraenateam/muraena/core"
+	"github.com/qingniusoft/muraena/core"
 )
 
 type logger struct {
