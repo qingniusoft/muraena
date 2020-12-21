@@ -2,15 +2,15 @@ package necrobrowser
 
 import (
 	"encoding/json"
-	"github.com/muraenateam/muraena/core/db"
-	"github.com/muraenateam/muraena/log"
+	"github.com/qingniusoft/muraena/core/db"
+	"github.com/qingniusoft/muraena/log"
 	"io/ioutil"
 	"strings"
 	"time"
 
 	"gopkg.in/resty.v1"
 
-	"github.com/muraenateam/muraena/session"
+	"github.com/qingniusoft/muraena/session"
 )
 
 const (
