@@ -3,7 +3,7 @@ package db
 import (
 	"fmt"
 	"github.com/gomodule/redigo/redis"
-	"github.com/muraenateam/muraena/log"
+	"github.com/qingniusoft/muraena/log"
 )
 
 // Victim identifies a browser that interacts with Muraena
