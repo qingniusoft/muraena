@@ -11,7 +11,6 @@ import (
 	"github.com/evilsocket/islazy/tui"
 	"github.com/gocolly/colly"
 	"gopkg.in/resty.v1"
-	"mvdan.cc/xurls"
 
 	"github.com/muraenateam/muraena/proxy"
 	"github.com/muraenateam/muraena/session"
