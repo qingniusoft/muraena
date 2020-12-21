@@ -9,7 +9,7 @@ import (
 
 	"github.com/evilsocket/islazy/tui"
 
-	"github.com/muraenateam/muraena/session"
+	"github.com/qingniusoft/muraena/session"
 )
 
 const (
