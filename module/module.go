@@ -5,7 +5,7 @@ import (
 	"github.com/qingniusoft/muraena/module/necrobrowser"
 	"github.com/qingniusoft/muraena/module/statichttp"
 	"github.com/qingniusoft/muraena/module/tracking"
-	"github.com/qingniusoft/muraena/session"
+	"github.com/qingniusoft/muraenateam/session"
 )
 
 // LoadModules load modules
